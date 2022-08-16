@@ -1,0 +1,29 @@
+.card {
+  background-color: aqua;
+  flex-wrap: wrap;
+  border: 3px solid black;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 80%;
+}
+
+.custom-background {
+  flex-wrap: wrap !important;
+}
+
+.List {
+  width: 60%;
+  height: 60%;
+  margin-left: 250px;
+  border-radius: 1%;
+  border: solid 1px white;
+  overflow-y: scroll;
+}
+.pagination {
+  /* display: flex; */
+  margin-left: 200px;
+}
